@@ -9,7 +9,7 @@ function App() {
           <li>Home</li>
           <li>Products</li>
           <li>About</li>
-          <li>Contact</li>
+          <li>Contacts</li>
         </ul>
         <button className="loginBtn">Login</button>
       </nav>
