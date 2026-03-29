@@ -25,6 +25,9 @@ function App() {
         <div className="box box7">
           <button className="styleButton">Click to buy New</button>
         </div>
+        <div className="box box8">
+          <button className="styleButton">Click to buy New Prod</button>
+        </div>
       </div>
     </main>
   );
