@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 
 function App() {
   return (
@@ -22,9 +22,12 @@ function App() {
         <div className="box box6">
           <button className="styleButton">Click to buy</button>
         </div>
+        <div className="box box7">
+          <button className="styleButton">Click to buy New</button>
+        </div>
       </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
