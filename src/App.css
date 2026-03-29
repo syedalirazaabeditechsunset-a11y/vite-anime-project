@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
 
-main{
+main {
   width: 100%;
   height: auto;
   background-color: aliceblue;
@@ -14,10 +14,9 @@ main{
   margin: 30px;
   border-radius: 5px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  grid-template-rows: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 20px;
- 
 }
 
 .box {
@@ -27,43 +26,39 @@ main{
   padding: 30px;
   background-size: cover;
   background-position: center;
-  
 }
 
 .box1 {
-  background-image: url('images/dove.jpeg');
+  background-image: url("images/dove.jpeg");
 }
 
 .box2 {
-  background-image: url('images/towel.jpeg');
+  background-image: url("images/towel.jpeg");
 }
 
 .box3 {
-  background-image: url('images/simple.jpeg');
+  background-image: url("images/simple.jpeg");
 }
 
 .box4 {
-  background-image: url('images/toner.jpeg');
+  background-image: url("images/toner.jpeg");
 }
 
 .box5 {
-  background-image: url('images/lip.jpeg');
+  background-image: url("images/lip.jpeg");
 }
 
 .box6 {
-  background-image: url('images/cream.png');
+  background-image: url("images/cream.png");
 }
-
-
-
 
 .styleButton {
   border-radius: 5px;
-  padding: 5px 10px; 
-  font-size: 25px;   
-  width: 40%; 
-  height: 60px;  
-  background-color: beige;  
+  padding: 5px 10px;
+  font-size: 25px;
+  width: 40%;
+  height: 60px;
+  background-color: beige;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +67,8 @@ main{
 }
 
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(0);
   }
   15% {
@@ -90,10 +86,60 @@ main{
   35% {
     transform: rotateZ(-4deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotateZ(0);
   }
 }
 
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcc00;
+}
 
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navLinks li {
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.navLinks li:hover {
+  color: #ffcc00;
+}
+
+.loginBtn {
+  padding: 8px 16px;
+  border: none;
+  background-color: #ffcc00;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.loginBtn:hover {
+  background-color: #e6b800;
+}
