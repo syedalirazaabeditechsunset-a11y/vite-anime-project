@@ -52,13 +52,10 @@ main {
   background-image: url("images/cream.png");
 }
 
-<<<<<<< HEAD
-=======
 .box7 {
   background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtMzYyLTAxYS1tb2NrdXAuanBn.jpg");
 }
 
->>>>>>> feat/new-prod
 .styleButton {
   border-radius: 5px;
   padding: 5px 10px;
@@ -99,7 +96,6 @@ main {
     transform: rotateZ(0);
   }
 }
-<<<<<<< HEAD
 
 /* Navbar Styling */
 .navbar {
@@ -152,5 +148,3 @@ main {
 .loginBtn:hover {
   background-color: #e6b800;
 }
-=======
->>>>>>> feat/new-prod
